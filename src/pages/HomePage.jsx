@@ -127,7 +127,8 @@ const HomePage = () => {
           onClick={() => navigate('/frens')}
         >
           <img src={frens} alt="Frens" className="w-8 h-8 mt-1" />
-          <p>Frens</p>
+          <p>Frens </p>
+          {/* check */}
         </div>
         <div
           className="flex items-center space-x-2 bg-blue-950/70 px-4 backdrop-blur-md rounded-full shadow-lg border border-[#567db5] cursor-pointer"
